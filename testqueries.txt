@@ -1,0 +1,14 @@
+CREATE TABLE students (id INTEGER, name STRING);
+CREATE INDEX student_index ON students (name);
+ALTER TABLE students ADD COLUMN age INTEGER;
+ALTER TABLE students ALTER_COLUMN name SET STRING;
+ALTER TABLE students ALTER_COLUMN age DROP DEFAULT;
+DROP TABLE students;
+DROP INDEX student_index;
+SELECT * FROM students;
+SELECT * FROM students WHERE id = 1;
+DELETE FROM students WHERE id = 1;
+DELETE FROM students;
+INSERT INTO students (id, name) VALUES (1, "Amjad");
+UPDATE students SET name = "Son" WHERE id = 2;
+SELECT COUNT(age) FROM students;

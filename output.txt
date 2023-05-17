@@ -1,0 +1,12 @@
+Token ID: 4, Token: SELECT, Line: 1
+Token ID: 9, Token: WHERE, Line: 1
+Token ID: 1, Token: CREATE, Line: 2
+Token ID: 2, Token: ALTER, Line: 7
+Token ID: 13, Token: ADD, Line: 7
+Token ID: 24, Token: COLUMN, Line: 7
+Token ID: 4, Token: SELECT, Line: 8
+Token ID: 9, Token: WHERE, Line: 8
+Token ID: 21, Token: BETWEEN, Line: 8
+Token ID: 16, Token: AND, Line: 8
+Token ID: 4, Token: SELECT, Line: 9
+Token ID: 11, Token: COUNT, Line: 9
